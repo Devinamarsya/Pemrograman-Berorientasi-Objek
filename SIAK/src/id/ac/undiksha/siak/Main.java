@@ -1,43 +1,73 @@
 package id.ac.undiksha.siak;
 
 import id.ac.undiksha.siak.people.Mahasiswa;
+import id.ac.undiksha.siak.people.Manusia;
 import id.ac.undiksha.siak.people.Dosen;
 
-public class Main {
 
-	public static void main(String[] args) {
+public class Main {
+	
+	public static void main(String[] args) { //TODO
 		
-Mahasiswa ani = new Mahasiswa();
-Dosen wayan = new Dosen();
+		/*Mahasiswa ani = new Mahasiswa();
 		
-		ani.setNim("1234");
+		ani.setNim("12345");
 		ani.setNama("Ani");
 		ani.setAlamat("Singaraja");
-		ani.setProdi("Ilmu Komputer");
 		ani.setTanggalLahir("1 Januari 2000");
 		ani.setJeniskelamin(true);
+		ani.setProdi("Ilmu Komputer");*/
 		
-		wayan.setNip("456");
-		wayan.setNama("Wayan");
-		wayan.setAlamat("Singaraja");
-		wayan.setProdi("Ilmu Komputer");
-		wayan.setTanggalLahir("17 Juli 1980");
-		wayan.setJeniskelamin(false);
+		Mahasiswa budi = new Mahasiswa(
+				"Budi",
+				"Singaraja",
+				"1 Januari 2000",
+				false,
+				
+				"10101010110",
+				"ILKOM"
+				);
 		
-		System.out.println(ani.getNim());
-		System.out.println(ani.getNama());
-		System.out.println(ani.getAlamat());
-		System.out.println(ani.getProdi());
-		System.out.println(ani.getTanggalLahir());
-		System.out.println(ani.getJeniskelamin());
+		budi.printAll();
 		
-		System.out.println(wayan.getNip());
-		System.out.println(wayan.getNama());
-		System.out.println(wayan.getAlamat());
-		System.out.println(wayan.getProdi());
-		System.out.println(wayan.getTanggalLahir());
-		System.out.println(wayan.getJeniskelamin());
-
+		System.out.println("----------");
+		
+		Mahasiswa mhs1 = new Mahasiswa();
+		mhs1.printAll();
+		mhs1.getProdi().setKodeProdi("10");
+		mhs1.getProdi().setNamaProdi("ILKOM");		
+		System.out.println("----------");
+		
+		
+		/*ani.nim 	="12345";
+		ani.nama	= "Ani";
+		ani.alamat	="Singaraja";
+		ani.tanggalLahir	="1 januari 2000";
+		ani.jenisKelamin	= true;
+		ani.prodi			="Ilmu Komputer";
+		
+		System.out.println(ani.nim);
+		System.out.println(ani.nama);
+		System.out.println(ani.alamat);
+		System.out.println(ani.tanggalLahir);
+		System.out.println(ani.jenisKelamin);
+		System.out.println(ani.prodi);*/
+		System.out.println (".......");
+		
+		
+		Dosen dewa = new Dosen(
+				"Dewa",
+				"Balikpapan",
+				"17 Juli 1970",
+				false,
+				
+				"24567",
+				"Bahasa Inggris"
+				);
+		dewa.printAll();
+		System.out.println (".......");
+		
+		Manusia mn2 = new Mahasiswa();
+				
 	}
-
 }
