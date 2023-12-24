@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Obstacle
+comment1.params=speed
+comment1.target=Obstacle(int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ checkCollision()
+comment4.params=
+comment4.target=void\ checkGroundBoundary()
+comment5.params=
+comment5.target=int\ getSpeed()
+comment6.params=
+comment6.target=int\ getGroundLevel()
+comment7.params=
+comment7.target=void\ removeSelfFromWorld()
+comment8.params=
+comment8.target=void\ increaseSpeed()
+numComments=9

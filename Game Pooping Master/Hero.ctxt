@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Hero
+comment1.params=
+comment1.target=Hero()
+comment2.params=obstacle
+comment2.target=void\ onCollision(Obstacle)
+comment3.params=obstacle\ world
+comment3.target=void\ handleCollision(Obstacle,\ greenfoot.World)
+comment4.params=
+comment4.target=void\ checkCollision()
+comment5.params=
+comment5.target=void\ removeSelfFromWorld()
+comment6.params=
+comment6.target=void\ act()
+comment7.params=
+comment7.target=void\ jump()
+comment8.params=
+comment8.target=void\ applyGravity()
+comment9.params=
+comment9.target=void\ shoot()
+numComments=10
